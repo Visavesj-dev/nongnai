@@ -26,6 +26,7 @@ class App extends Component {
               style={{ position: "relative" }}
             >
               <Demo />
+              <h1>ให้คำปรึกษาโดย เภสัชกร</h1>
               <div className="row">
                 <Route path="/" component={List} exact />
                 <Route path="/article/:name" component={SinglePage} />
@@ -33,13 +34,11 @@ class App extends Component {
               <img
                 src="https://static.wixstatic.com/media/1f9926_96384eaf41e848eaaf841b7f364bff42~mv2.png/v1/fill/w_1123,h_444,al_c,lg_1,q_90,enc_auto/dfdfdf.png"
                 alt="dfdfdf.png"
-                
                 fetchpriority="high"
               />
               <img
                 src="https://static.wixstatic.com/media/1f9926_30541c8acdb54e9b874e1c053e323b04~mv2.png/v1/fill/w_880,h_374,al_c,lg_1,q_85,enc_auto/efgefefef.png"
                 alt="efgefefef.png"
-                
                 fetchpriority="high"
               />
             </div>
