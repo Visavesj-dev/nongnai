@@ -6,7 +6,7 @@ const Nav = () => (
     <Link to="/">
       <img width="120" className="img-fluid" src="/logo.jpeg" />
       <h4 className="text-danger" style={{ marginTop: "5px" }}>
-        ยารักษาหนองใน ตกขาว โรคทางเพศสัมพันธ์ หูด เริม
+        ยารักษาหนองใน ตกขาว หูด เริม
       </h4>
     </Link>
     <a
