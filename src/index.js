@@ -10,6 +10,7 @@ import Demo from "./Demo";
 import Footer from "./Footer";
 import Nav from "./Nav";
 import "./style.css";
+import { AppBar } from "./index.view";
 
 class App extends Component {
   render() {
@@ -17,10 +18,13 @@ class App extends Component {
       <Router>
         <div className="container-fluid text-center">
           <div className="row">
-            <div className="col-12 col-md-2 p-3 p-md-5 text-center uk-animation-slide-left">
+            <AppBar>
               <Nav />
-            </div>
-            <div className="col-12 col-md-10 p-3 p-md-5 text-center">
+            </AppBar>
+            <div
+              className="col-12 col-md-12 p-3 p-md-5 text-center"
+              style={{ position: "relative" }}
+            >
               <Demo />
               <div className="row">
                 <Route path="/" component={List} exact />
