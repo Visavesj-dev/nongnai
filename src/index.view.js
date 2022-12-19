@@ -13,6 +13,16 @@ const AppBar = styled.div`
   }
 `;
 
+const Container = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+`;
+
 const skBouncedelay = keyframes`
 0% {
     background-color: #2ba805;
@@ -44,4 +54,4 @@ const Flashing = styled.a`
   animation: ${skBouncedelay} 1300ms infinite;
 `;
 
-export { AppBar, Flashing };
+export { AppBar, Flashing, Container };
