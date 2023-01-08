@@ -13,7 +13,7 @@ const Footer = () => (
             </strong>
           </h4>
           <a
-            href="https://www.facebook.com/nongnaihoodtokkoalerm"
+            href="https://www.facebook.com/ruksanongnai"
             target="_blank"
             className="btn btn-primary rounded-pill col-6 col-md-2"
           >

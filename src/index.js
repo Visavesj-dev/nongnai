@@ -30,6 +30,9 @@ const App = () => {
             style={{ position: "relative" }}
           >
             <Demo />
+            <video width="240" height="240" controls autoplay>
+              <source src="/nongnai.mp4" type="video/mp4" />
+            </video>
             <h1>ให้คำปรึกษาโดย เภสัชกร</h1>
             <Flashing
               ref={myRef}

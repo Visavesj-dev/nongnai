@@ -10,7 +10,7 @@ const Nav = () => (
         การรักษาหนองใน ตกขาว หูด เริม
       </h4>
     </Link>
-    <Flashing href="https://lin.ee/2iRmQPK">อยากหาย คลิกตรงนี้</Flashing>
+    <Flashing href="https://www.facebook.com/ruksanongnai">อยากหาย คลิกตรงนี้</Flashing>
   </div>
 );
 
