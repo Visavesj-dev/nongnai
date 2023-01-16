@@ -8,8 +8,8 @@ const SinglePage = ({ match }) => {
   return (
     <div style={{ margin: "auto" }}>
       <Helmet>
-        <title>การรักษาหนองใน ตกขาว หูด เริม</title>
-        <meta content="การรักษาหนองใน ตกขาว  หูด เริม" name=" description" />
+        <title>การรักษา ตกขาว หูด เริม</title>
+        <meta content="การรักษา ตกขาว  หูด เริม" name=" description" />
       </Helmet>
       <div className="row">
         <div className="col-12 col-md-12 p-3 p-md-5">

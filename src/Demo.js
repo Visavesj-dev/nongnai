@@ -9,7 +9,7 @@ const Demo = () => (
     >
       <div style={{ display: "flex", alignItems: "center", width: "100%" }}>
         <img src="/facebook.png" alt="เพิ่มเพื่อน" width={30} height={30} />
-        <span>FaceBook รักษาหนองใน</span>
+        <span>FaceBook รักษา</span>
       </div>
     </a>
     <a

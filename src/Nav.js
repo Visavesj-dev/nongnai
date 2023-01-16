@@ -7,7 +7,7 @@ const Nav = () => (
     <Link to="/">
       <img width="120" className="img-fluid" src="/logo.jpeg" />
       <h4 className="text-danger" style={{ marginTop: "5px" }}>
-        การรักษาหนองใน ตกขาว หูด เริม
+        การรักษาหนอง ใ น ตกขาว หูด เริม
       </h4>
     </Link>
     <Flashing href="https://www.facebook.com/ruksanongnai">อยากหาย คลิกตรงนี้</Flashing>
