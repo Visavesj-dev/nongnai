@@ -4,11 +4,6 @@ import { Link } from "react-router-dom";
 const ArticleList = ({ articles }) => (
   <div style={{ marginTop: "20px", marginBottom: "100px" }}>
     <Helmet>
-      <title>การรักษา ตกขาว หูด เริม</title>
-      <meta
-        name="description"
-        content="เเท้-เทียม เริม หูด ตกขาว-เหลือง รักษาหายได้เเน่นอน โดยเภสัชกร"
-      />
       <meta content="index, follow" name="robots" />
     </Helmet>
     {articles.map((article, key) => (

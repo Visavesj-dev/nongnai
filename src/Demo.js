@@ -7,9 +7,16 @@ const Demo = () => (
       target="_blank"
       className="btn btn-primary rounded-pill col-6 col-md-2"
     >
-      <div style={{ display: "flex", alignItems: "center", width: "100%" }}>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          width: "100%",
+          height: "50px",
+        }}
+      >
         <img src="/facebook.png" alt="เพิ่มเพื่อน" width={30} height={30} />
-        <span>FaceBook รักษา</span>
+        <span>FaceBook ปรึกษาพูดคุย</span>
       </div>
     </a>
     <a

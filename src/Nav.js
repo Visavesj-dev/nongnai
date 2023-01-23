@@ -7,10 +7,10 @@ const Nav = () => (
     <Link to="/">
       <img width="120" className="img-fluid" src="/logo.jpeg" />
       <h4 className="text-danger" style={{ marginTop: "5px" }}>
-        การรักษาหนอง ใ น ตกขาว หูด เริม
+       ปรึกษากับเภสัชกรชำนาญการ
       </h4>
     </Link>
-    <Flashing href="https://www.facebook.com/ruksanongnai">อยากหาย คลิกตรงนี้</Flashing>
+    <Flashing href="https://www.facebook.com/ruksanongnai">ปรึกษาพูดคุย คลิก!!</Flashing>
   </div>
 );
 
