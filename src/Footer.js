@@ -6,7 +6,7 @@ const Footer = () => (
         <div>
           <h4>
             <strong style={{ marginLeft: "15px", color: "red" }}>
-              LineID : @316iwiba ใส่เครื่องหมาย @ ด้วยนะคะ
+              LineID : @nongnai ใส่เครื่องหมาย @ ด้วยนะคะ
             </strong>
           </h4>
           <a
