@@ -31,14 +31,6 @@ const App = () => {
           >
             <Demo />
 
-            <h2>ให้คำปรึกษาโดยเภสัชกร</h2>
-            <Flashing
-              ref={myRef}
-              onClick={executeScroll}
-              style={{ marginBottom: "10px" }}
-            >
-              ดูรีวิวทั้งหมด
-            </Flashing>
             <div className="row">
               <Route path="/" component={List} exact />
               <Route path="/article/:name" component={SinglePage} />

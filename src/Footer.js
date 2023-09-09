@@ -1,14 +1,16 @@
 import React from "react";
 const Footer = () => (
-  <div>
+  <div
+    style={{
+      position: "fixed",
+      width: "100%",
+      backgroundColor: "white",
+      bottom: "0px",
+    }}
+  >
     <footer className="text-center">
       <p>
         <div>
-          <h4>
-            <strong style={{ marginLeft: "15px", color: "red" }}>
-              LineID : @nongnai ใส่เครื่องหมาย @ ด้วยนะคะ
-            </strong>
-          </h4>
           <a
             href="https://www.facebook.com/ruksanongnai"
             target="_blank"
@@ -20,6 +22,7 @@ const Footer = () => (
                 alignItems: "center",
                 width: "100%",
                 height: "50px",
+                justifyContent: "center",
                 gap: "10px",
               }}
             >
@@ -29,7 +32,7 @@ const Footer = () => (
                 width={30}
                 height={30}
               />
-              <span>FaceBook ปรึกษาพูดคุย</span>
+              <span style={{ fontSize: "30px" }}>ติดต่อสอบถาม</span>
             </div>
           </a>
           <a

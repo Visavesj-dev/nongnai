@@ -13,10 +13,12 @@ const Demo = () => (
           alignItems: "center",
           width: "100%",
           height: "50px",
+          justifyContent: "center",
+          gap: "10px",
         }}
       >
         <img src="/facebook.png" alt="เพิ่มเพื่อน" width={30} height={30} />
-        <span>FaceBook ปรึกษาพูดคุย</span>
+        <span style={{ fontSize: "30px" }}>ติดต่อสอบถาม</span>
       </div>
     </a>
     <a
@@ -25,7 +27,7 @@ const Demo = () => (
     >
       <img
         src="https://scdn.line-apps.com/n/line_add_friends/btn/th.png"
-        alt="เพิ่มเพื่อน"
+        alt="ติดต่อสอบถาม  ADD LINE"
       />
     </a>
   </div>
