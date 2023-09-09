@@ -1,20 +1,13 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import { FacebookProvider, Page, EmbeddedPost } from "react-facebook";
 
 const ArticleList = ({ articles }) => (
   <div style={{ marginTop: "20px", marginBottom: "100px" }}>
     <Helmet>
       <meta content="index, follow" name="robots" />
     </Helmet>
-    <div>
-      <FacebookProvider appId="318515543995560">
-        <Page href="https://www.facebook.com/ruksanongnai" tabs="timeline">
-       asfdasfdasdfasfsaf
-        </Page>
-      </FacebookProvider>
-    </div>
+    <div></div>
     <div>
       {articles.map((article, key) => (
         <Link
