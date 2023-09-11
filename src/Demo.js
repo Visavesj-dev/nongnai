@@ -18,7 +18,7 @@ const Demo = () => (
         }}
       >
         <img src="/facebook.png" alt="เพิ่มเพื่อน" width={30} height={30} />
-        <span style={{ fontSize: "30px" }}>ติดต่อสอบถาม</span>
+        <span style={{ fontSize: "25px" }}>ติดต่อสอบถาม</span>
       </div>
     </a>
     <a
