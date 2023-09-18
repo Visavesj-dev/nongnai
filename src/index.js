@@ -32,8 +32,9 @@ const App = () => {
             <Demo />
 
             <div className="row">
-              <Route path="/" component={List} exact />
-              <Route path="/article/:name" component={SinglePage} />
+              <div className="container">
+                <Route path="/" component={List} exact />
+              </div>
             </div>
             <img
               src="11.png"
@@ -110,8 +111,8 @@ const App = () => {
             </Container>
           </div>
         </div>
-        <Footer />
       </div>
+      <Footer />
     </Router>
   );
 };
