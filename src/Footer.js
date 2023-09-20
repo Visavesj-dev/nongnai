@@ -75,7 +75,7 @@ const Footer = () => (
           }}
         >
           <span style={{ fontSize: "30px", color: "white" }}>
-            ดูริวิวการรักษาเภสัช
+            ดูรีวิวการรักษาเภสัช
           </span>
         </div>
       </a>
