@@ -15,28 +15,7 @@ const Demo = () => (
   >
     <div style={{ width: "1000px" }}>
       <a
-        href="https://www.tiktok.com/@gracepharmadrug?is_from_webapp=1&sender_device=pc"
-        target="_blank"
-        style={{ backgroundColor: "black" }}
-        className="btn rounded-pill col-md-4 col-12 mb-2"
-      >
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            gap: "10px",
-          }}
-        >
-          <img src="tiktok.webp" alt="เพิ่มเพื่อน" width={30} height={30} />
-          <span style={{ fontSize: "30px", color: "white" }}>
-            ติดตาม Tiktok
-          </span>
-        </div>
-      </a>
-
-      <a
-        href="https://www.tiktok.com/@gracepharmadrug?is_from_webapp=1&sender_device=pc"
+        href="https://www.facebook.com/media/set/?set=a.145814961677437&type=3"
         target="_blank"
         className="btn btn-success rounded-pill col-md-4 col-12 mb-2"
       >
