@@ -4,9 +4,7 @@ const Demo = () => (
   <div
     style={{
       backgroundColor: "white",
-      bottom: "0px",
       height: "auto",
-      minHeight: "150px",
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
@@ -17,7 +15,7 @@ const Demo = () => (
       <a
         href="https://www.facebook.com/media/set/?set=a.145814961677437&type=3"
         target="_blank"
-        className="btn btn-success rounded-pill col-md-4 col-12 mb-2"
+        className="btn btn-warning rounded-pill col-md-4 col-12 mb-2"
       >
         <div
           style={{

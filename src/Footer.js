@@ -43,7 +43,7 @@ const Footer = () => (
       <a
         href="https://www.facebook.com/media/set/?set=a.145814961677437&type=3"
         target="_blank"
-        className="btn btn-success rounded-pill col-md-6 col-12 mb-2"
+        className="btn btn-warning rounded-pill col-md-12 col-12 mb-2"
       >
         <div
           style={{
